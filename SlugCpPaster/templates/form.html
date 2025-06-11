@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slug Creator</title>
+</head>
+<body>
+    <form method="post" action="{% url 'create_slug' %}">
+        {% csrf_token %}
+        Slug: <input type="text" name="slug" required><br><br>
+        Content:<br>
+        <textarea name="content" rows="4" cols="50" required></textarea><br><br>
+        <input type = "time" name ="expiry_time">
+        <button type="submit">Save and View</button>
+    </form>
+</body>
+</html>
