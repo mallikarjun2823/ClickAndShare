@@ -43,7 +43,7 @@ ClickAndShare provides a lightweight interface to:
 
 - **Framework**: Django (Python)
 - **Frontend**: HTML, Bootstrap
-- **Database**: SQLite (default, replaceable with PostgreSQL/MySQL)
+- **Database**: MariaDB 
 - **Timezone Handling**: `django.utils.timezone` for reliable datetime processing
 
 ---
