@@ -36,5 +36,54 @@ ClickAndShare provides a lightweight interface to:
 
 - **Framework**: Django (Python)
 - **Frontend**: HTML, Bootstrap
+<<<<<<< HEAD
 - **Database**: Mariadb 
 - **Timezone Handling**: `django.utils.timezone` for reliable datetime processing
+=======
+- **Database**: MariaDB 
+- **Timezone Handling**: `django.utils.timezone` for reliable datetime processing
+
+---
+
+## Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/mallikarjun2823/ClickAndShare.git
+   cd ClickAndShare
+````
+
+2. **Create a Virtual Environment**
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install Dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Apply Migrations**
+
+   ```bash
+   python manage.py migrate
+   ```
+
+5. **Run the Development Server**
+
+   ```bash
+   python manage.py runserver
+   ```
+
+6. **Access the App**
+   Open your browser and navigate to:
+   `http://127.0.0.1:8000/`
+
+
+
+
+
+>>>>>>> be74a1e15f1cd6b98cfd44752bcfd0e39ee94422
